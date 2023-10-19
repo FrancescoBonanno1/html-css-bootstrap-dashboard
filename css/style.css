@@ -1,14 +1,17 @@
-#mynavigationbar{
+#mynavigationbar {
     padding-right: 0%;
 }
-#leftcontainer{
+
+#leftcontainer {
     background-color: rgb(70, 70, 70);
-    height:90vh;
 }
-#superiorbar{
+
+#superiorbar {
     background-color: cornflowerblue;
 
 }
-#content{
+
+#content {
     background-color: brown;
+    height: 90vh;
 }

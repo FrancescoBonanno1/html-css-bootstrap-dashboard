@@ -32,39 +32,38 @@
                     <div class="collapse navbar-collapse justify-content-start" id="navbarScroll">
 
                         <form class="d-flex" role="search">
-                            <input class="form-control" type="search"
-                                placeholder="Prova a cercare : Odio Bootstrap" aria-label="Search">
+                            <input class="form-control" type="search" placeholder="Prova a cercare : Odio Bootstrap"
+                                aria-label="Search">
                         </form>
-                   </div>
-                </div>
-                    <div class="col-3">
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                            style="--bs-scroll-height: 100px;">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><i
-                                        class="fa-solid fa-list-ul"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true"><i
-                                        class="fa-solid fa-ellipsis-vertical"></i></a>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <i class="fa-solid fa-bell text-warning"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                    <li><a class="dropdown-item" href="#">Logout</a></li>
-                                </ul>
-                            </li>
-                            </li>
-                        </ul>
                     </div>
                 </div>
+                <div class="col-3 d-flex align-items-center justify-content-end">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-solid fa-list-ul"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true"><i
+                                    class="fa-solid fa-ellipsis-vertical"></i></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-bell text-warning"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             </div>
         </nav>
 
@@ -74,33 +73,36 @@
 
 </section>
 
-<!--superiorbar-->
-<section id="superiorbar">
-<div class="container">
-    <div class="row">
-        ciao
-    </div>
-</div>
-
-</section>
-
 <!--leftcontainer-->
-<section id="leftcontainer" class="col-3 flex-row">
+<div class="d-flex">
+<section id="leftcontainer" class="col-3">
     <div class="container">
         <div class="row">
-            <i class="fa-solid fa-house">biscotti</i>
+            <div class="d-flex flex-column ">
+            <i class="fa-solid fa-house fa-xl text-white"> Home</i>
+            <i class="fa-solid fa-chart-simple fa-xl text-white"> Stats </i>
+            <i class="fa-solid fa-signal fa-xl text-white"> Signal </i>
+            </div>
         </div>
 
     </div>
+</section>
 
-
-<!--content-->
-<section id="content">
+<!--superiorbar-->
+<section id="superiorbar" class="col-9">
     <div class="container">
         <div class="row">
-            ehi
+            <span class="text-white">Boolean</span>
+        </div>
+    </div>
+<!--content-->
+<section id="content" class="">
+    <div class="container">
+        <div class="row">
+
         </div>
     </div>
 </section>
+</div>
 
 </html>
