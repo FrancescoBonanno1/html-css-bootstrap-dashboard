@@ -18,27 +18,38 @@
 <body>
     <!--header con navbar and search-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="loghetto"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
+                <div class="col-3">
+                    <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="loghetto"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-6">
+                    <div class="collapse navbar-collapse justify-content-start" id="navbarScroll">
 
-                    <form class="d-flex" role="search">
-                        <input class="form-control" type="search" placeholder="Prova a cercare : Come sconfiggere il capitalismo" aria-label="Search">
-                    </form>
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search"
+                                placeholder="Prova a cercare : Odio Bootstrap" aria-label="Search">
+                        </form>
+                   </div>
+                </div>
+                    <div class="col-3">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fa-solid fa-list-ul"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true"><i
+                                        class="fa-solid fa-ellipsis-vertical"></i></a>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
@@ -50,8 +61,9 @@
                                     <li><a class="dropdown-item" href="#">Logout</a></li>
                                 </ul>
                             </li>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -59,5 +71,36 @@
     </header>
 
 </body>
+
+</section>
+
+<!--superiorbar-->
+<section id="superiorbar">
+<div class="container">
+    <div class="row">
+        ciao
+    </div>
+</div>
+
+</section>
+
+<!--leftcontainer-->
+<section id="leftcontainer" class="col-3 flex-row">
+    <div class="container">
+        <div class="row">
+            <i class="fa-solid fa-house">biscotti</i>
+        </div>
+
+    </div>
+
+
+<!--content-->
+<section id="content">
+    <div class="container">
+        <div class="row">
+            ehi
+        </div>
+    </div>
+</section>
 
 </html>
