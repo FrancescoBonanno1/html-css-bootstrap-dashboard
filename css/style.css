@@ -3,11 +3,11 @@
 }
 #leftcontainer{
     background-color: rgb(70, 70, 70);
-    height: 100%;
+    height:90vh;
 }
 #superiorbar{
     background-color: cornflowerblue;
-    
+
 }
 #content{
     background-color: brown;
