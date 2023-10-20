@@ -1,17 +1,20 @@
 #mynavigationbar {
     padding-right: 0%;
 }
-
-#leftcontainer {
-    background-color: rgb(70, 70, 70);
+#left{
+    background-image: url(img\sidebar-bg.png);
+    background-color: rgb(44, 44, 44);
+    opacity:75%;
+    height: 95vh;
 }
-
-#superiorbar {
-    background-color: cornflowerblue;
-
-}
-
-#content {
+#right{
     background-color: brown;
-    height: 90vh;
+}
+#boolstats{
+    background-color: aqua;
+}
+#mybtn{
+    font-size: 0.6em;
+    width: 20%;
+
 }
